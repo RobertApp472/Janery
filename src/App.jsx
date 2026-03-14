@@ -1,22 +1,25 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Navigator from './Navigator.jsx'
-import Balance from './pages/Balance.jsx'
-import Savings from './pages/Savings.jsx'
-import Credits from './pages/Credits.jsx'
-import Debts from './pages/debts.jsx'  // ojo: nombre exacto del archivo
+// App.jsx
+import React from 'react';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+
+import Balance from './pages/Balance';
+import Credits from './pages/Credits';
+import Debts from './pages/debts';
+import Savings from './pages/Savings';
+import Navigator from './Navigator';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navigator />
       <Routes>
         <Route path="/" element={<Balance />} />
-        <Route path="/savings" element={<Savings />} />
         <Route path="/credits" element={<Credits />} />
         <Route path="/debts" element={<Debts />} />
+        <Route path="/savings" element={<Savings />} />
       </Routes>
-    </BrowserRouter>
-  )
+    </HashRouter>
+  );
 }
 
-export default App
+export default App;
