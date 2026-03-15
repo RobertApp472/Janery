@@ -1,0 +1,12 @@
+{
+  "socios": [
+    { "nombre": "JUAN", "monto": 30 },
+    { "nombre": "JHON", "monto": 301.84, "emergente_navidad": 50 },
+    { "nombre": "MERY", "monto": 330.85 },
+    { "nombre": "HANSEL", "monto": 27.75 }
+  ],
+  "clientes": [
+    { "nombre": "PATRICIO", "monto": 230 },
+    { "nombre": "EDISON", "monto": 300 }
+  ]
+}

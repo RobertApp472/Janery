@@ -1,0 +1,16 @@
+{
+  "socios": [
+    { "nombre": "JUAN", "normal": 1200, "inversion": 0, "segundo_credito": 508.21 },
+    { "nombre": "JHON", "normal": 1078.33, "inversion": 958.33, "segundo_credito": 256.12 },
+    { "nombre": "JEANETH", "normal": 0, "inversion": 916.66, "segundo_credito": 0 },
+    { "nombre": "MERY", "normal": 1088.67, "inversion": 0, "segundo_credito": 0 },
+    { "nombre": "LESLY", "normal": 0, "inversion": 805.54, "segundo_credito": 0 },
+    { "nombre": "ANA", "normal": 0, "inversion": 880.44, "segundo_credito": 0 },
+    { "nombre": "HANSEL", "normal": 0, "inversion": 1166.67, "segundo_credito": 0 }
+  ],
+  "clientes": [
+    { "nombre": "PATRICIO", "normal": 1067.18, "inversion": 896.66 },
+    { "nombre": "EDISON", "normal": 583.35, "inversion": 0 },
+    { "nombre": "MARIBEL", "normal": 275, "inversion": 0 }
+  ]
+}

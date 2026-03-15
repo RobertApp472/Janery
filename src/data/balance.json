@@ -1,0 +1,40 @@
+{
+  "ganancias": [
+    { "codigo": "4,1", "descripcion": "Intereses ganados en créditos", "monto": 77.66 },
+    { "codigo": "4,2", "descripcion": "Interés de Mora cobradas", "monto": 0 },
+    { "codigo": "4,3", "descripcion": "Multas cobradas", "monto": 0 },
+    { "codigo": "4,4", "descripcion": "Intereses bancarios", "monto": 0 },
+    { "codigo": "4,5", "descripcion": "Ingresos por actividades", "monto": 0 },
+    { "codigo": "4,6", "descripcion": "Venta de formularios", "monto": 0 },
+    { "codigo": "4,7", "descripcion": "Otros Ingresos", "monto": 50 }
+  ],
+  "gastos": [
+    { "codigo": "5,1", "descripcion": "Intereses de los ahorros captados", "monto": 8.55 },
+    { "codigo": "5,2", "descripcion": "Intereses de Préstamos externos", "monto": 0 },
+    { "codigo": "5,3", "descripcion": "Gastos bancarios", "monto": 0 },
+    { "codigo": "5,4", "descripcion": "Gastos de Personal", "monto": 10 },
+    { "codigo": "5,5", "descripcion": "Gastos de suministros", "monto": 0 },
+    { "codigo": "5,6", "descripcion": "Gastos de transportes", "monto": 0 },
+    { "codigo": "5,7", "descripcion": "Gastos de alimentación", "monto": 0 },
+    { "codigo": "5,8", "descripcion": "Otros gastos operativos", "monto": 0 },
+    { "codigo": "5,9", "descripcion": "Gastos de provisión", "monto": 0 }
+  ],
+  "resultado_mes": 109.11,
+  "activo_corriente": [
+    { "codigo": "1,1", "descripcion": "Caja (dinero en efectivo)", "monto": 578.79 },
+    { "codigo": "1,4", "descripcion": "Créditos por cobrar", "monto": 12951.60 },
+    { "codigo": "1,99", "descripcion": "Provisión de cartera", "monto": 0 }
+  ],
+  "pasivos": [
+    { "codigo": "2,1", "descripcion": "Ahorros captados", "monto": 1467.84 },
+    { "codigo": "2,2", "descripcion": "Plazo Fijo", "monto": 1361.30 },
+    { "codigo": "2,5", "descripcion": "Fondo de Desgravamen", "monto": 958.43 }
+  ],
+  "capital": [
+    { "codigo": "3,1", "descripcion": "Aportes iniciales", "monto": 350 },
+    { "codigo": "3,2", "descripcion": "Aportes mensuales y adicionales", "monto": 7302.87 },
+    { "codigo": "3,5", "descripcion": "Reservas", "monto": 1719.12 },
+    { "codigo": "3,6", "descripcion": "Resultado del mes", "monto": 109.11 },
+    { "codigo": "3,7", "descripcion": "Resultado acumulada", "monto": 261.72 }
+  ]
+}
