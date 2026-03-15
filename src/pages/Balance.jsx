@@ -67,7 +67,7 @@ function Balance() {
         </div>
       </div>
 
-      <p className="result">
+      <p className="total">
         Resultado del mes: ${resultado_mes.toFixed(2)}
       </p>
 

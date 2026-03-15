@@ -1,0 +1,161 @@
+[
+  {
+    "nombre": "DE LA CRUZ JUAN",
+    "deudas": [
+      {
+        "mes": "enero",
+        "interes_emergente": 0,
+        "aporte_mensual": 0,
+        "aporte_especial": 0
+      },
+      {
+        "mes": "febrero",
+        "interes_emergente": 8.46,
+        "aporte_mensual": 0,
+        "aporte_especial": 0
+      }
+    ]
+  },
+  {
+    "nombre": "DE LA CRUZ JHON",
+    "deudas": [
+      {
+        "mes": "enero",
+        "interes_emergente": 11.25,
+        "aporte_mensual": 0,
+        "aporte_especial": 0
+      },
+      {
+        "mes": "febrero",
+        "interes_emergente": 10.56,
+        "aporte_mensual": 0,
+        "aporte_especial": 0
+      }
+    ]
+  },
+  {
+    "nombre": "DE LA CRUZ JEANETH",
+    "deudas": [
+      {
+        "mes": "enero",
+        "interes_emergente": 0,
+        "aporte_mensual": 0,
+        "aporte_especial": 0
+      },
+      {
+        "mes": "febrero",
+        "interes_emergente": 0,
+        "aporte_mensual": 0,
+        "aporte_especial": 0
+      }
+    ]
+  },
+  {
+    "nombre": "DE LA CRUZ MERY",
+    "deudas": [
+      {
+        "mes": "enero",
+        "interes_emergente": 10.75,
+        "aporte_mensual": 0,
+        "aporte_especial": 0
+      },
+      {
+        "mes": "febrero",
+        "interes_emergente": 10.75,
+        "aporte_mensual": 0,
+        "aporte_especial": 0
+      }
+    ]
+  },
+  {
+    "nombre": "DE LA CRUZ ROBERT",
+    "deudas": [
+      {
+        "mes": "enero",
+        "interes_emergente": 0,
+        "aporte_mensual": 2.5,
+        "aporte_especial": 0
+      },
+      {
+        "mes": "febrero",
+        "interes_emergente": 0,
+        "aporte_mensual": 2.5,
+        "aporte_especial": 0
+      },
+      {
+        "mes": "marzo",
+        "interes_emergente": 0,
+        "aporte_mensual": 2.5,
+        "aporte_especial": 10
+      }
+    ]
+  },
+  {
+    "nombre": "PERUGACHI ANA",
+    "deudas": [
+      {
+        "mes": "enero",
+        "interes_emergente": 0,
+        "aporte_mensual": 2.5,
+        "aporte_especial": 0
+      },
+      {
+        "mes": "febrero",
+        "interes_emergente": 0,
+        "aporte_mensual": 2.5,
+        "aporte_especial": 0
+      },
+      {
+        "mes": "marzo",
+        "interes_emergente": 0,
+        "aporte_mensual": 0,
+        "aporte_especial": 10
+      },
+      {
+        "mes": "abril",
+        "interes_emergente": 0,
+        "aporte_mensual": 0,
+        "aporte_especial": 10
+      }
+    ]
+  },
+  {
+    "nombre": "PINARGOTE HANSEL",
+    "deudas": [
+      {
+        "mes": "enero",
+        "interes_emergente": 0,
+        "aporte_mensual": 2.5,
+        "aporte_especial": 0
+      },
+      {
+        "mes": "marzo",
+        "interes_emergente": 0,
+        "aporte_mensual": 0,
+        "aporte_especial": 10
+      }
+    ]
+  },
+  {
+    "nombre": "TUTILLO ISAAC",
+    "deudas": [
+      {
+        "mes": "enero",
+        "interes_emergente": 0,
+        "aporte_mensual": 2.5,
+        "aporte_especial": 0
+      }
+    ]
+  },
+  {
+    "nombre": "DE LA CRUZ MERY",
+    "deudas": [
+      {
+        "mes": "enero",
+        "interes_emergente": 0,
+        "aporte_mensual": 2.5,
+        "aporte_especial": 0
+      }
+    ]
+  }
+]

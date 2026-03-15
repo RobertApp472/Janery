@@ -6,6 +6,7 @@ import Balance from './pages/Balance';
 import Credits from './pages/Credits';
 import Debts from './pages/debts';
 import Savings from './pages/Savings';
+import Movimientos from './pages/Movimientos';
 import Navigator from './Navigator';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/credits" element={<Credits />} />
         <Route path="/debts" element={<Debts />} />
         <Route path="/savings" element={<Savings />} />
+        <Route path="/movimientos" element={<Movimientos />} />
       </Routes>
     </HashRouter>
   );
