@@ -23,7 +23,7 @@ export default function Debts() {
   ];
 
   return (
-    <div className="flex flex-col items-center px-4 py-8 min-h-screen bg-gray-900">
+    <div className="flex flex-col items-center px-4 py-8 min-h-screen w-full bg-gray-900 overflow-x-hidden">
       <h1 className="text-4xl font-bold mb-8 text-green-400 tracking-tight text-center">
         Deudas por Socio y Mes
       </h1>

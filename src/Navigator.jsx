@@ -66,10 +66,10 @@ export default function Navigator() {
       </div>
 
       {/* Barra navegación */}
-      <nav className="bg-gray-800 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-center items-center h-14">
-            <div className="flex gap-2 md:gap-4">
+      <nav className="bg-gray-800 shadow-sm w-full">
+        <div className="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
+          <div className="flex justify-center items-center h-14 w-full">
+            <div className="flex gap-2 md:gap-4 overflow-x-auto w-full scrollbar-thin scrollbar-thumb-green-700 scrollbar-track-gray-900 px-2">
 
               <Link to="/movimientos" className="px-4 py-2 rounded-lg text-base font-medium text-gray-200 hover:bg-green-700 hover:text-white transition-all duration-300 transform hover:scale-110">
   Movimientos

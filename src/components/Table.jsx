@@ -7,8 +7,9 @@ export default function Table({ columns, data, color = "green", className = '', 
   const hoverColor = `hover:bg-${color}-900/30`;
 
   return (
-    <div className={`overflow-x-auto font-sans ${className}`.trim()}>
-      <table className="w-full border-collapse text-sm text-gray-200">
+    <div className={`w-full font-sans ${className}`.trim()} style={{ WebkitOverflowScrolling: 'touch' }}>
+      <div className="overflow-x-auto w-full">
+        <table className="min-w-[600px] w-full border-collapse text-sm text-gray-200">
         <thead>
           <tr className={`bg-gray-700 ${headerColor}`}>
             {columns.map((col) => (
@@ -43,7 +44,8 @@ export default function Table({ columns, data, color = "green", className = '', 
             );
           })}
         </tbody>
-      </table>
+        </table>
+      </div>
     </div>
   );
 }
