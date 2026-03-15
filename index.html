@@ -2,6 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <style>
+      /* Solo ocultar el título en landscape si el ancho es menor a 1024px (móvil/tablet) */
+      @media (orientation: landscape) and (max-width: 1024px) {
+        .landscape\:hidden { display: none !important; }
+      }
+    </style>
     <link rel="icon" type="image/png" href="/LOGO_JANERY.png" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>JANERY</title>
