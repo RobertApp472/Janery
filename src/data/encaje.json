@@ -1,15 +1,15 @@
 [
-  { "nombre": "DE LA CRUZ JUAN", "monto": 55 },
-  { "nombre": "DE LA CRUZ JEANETH", "monto": 25 },
-  { "nombre": "DE LA CRUZ JHON", "monto": 85 },
-  { "nombre": "DE LA CRUZ MERY", "monto": 60 },
-  { "nombre": "DE LA CRUZ ROBERT", "monto": 0 },
-  { "nombre": "GUACHALA LESLY", "monto": 25 },
-  { "nombre": "PERUGACHI ANA", "monto": 25 },
-  { "nombre": "PINARGOTE HANSEL", "monto": 18.84 },
-  { "nombre": "TUTILLO PATRICIO", "monto": 85 },
-  { "nombre": "REINOSO EVA", "monto": 0 },
-  { "nombre": "PERUGACHI ERNESTO", "monto": 15 },
-  { "nombre": "TONTAQUIMBA EDISON", "monto": 50 },
-  { "nombre": "MARIBEL OBANDO", "monto": 27.5 }
+  { "nombre": "JUAN", "monto": 55 },
+  { "nombre": "JEANETH", "monto": 25 },
+  { "nombre": "JHON", "monto": 85 },
+  { "nombre": "MERY", "monto": 60 },
+  { "nombre": "ROBERT", "monto": 0 },
+  { "nombre": "LESLY", "monto": 25 },
+  { "nombre": "ANA", "monto": 25 },
+  { "nombre": "HANSEL", "monto": 18.84 },
+  { "nombre": "PATRICIO", "monto": 85 },
+  { "nombre": "EVA", "monto": 0 },
+  { "nombre": "ERNESTO", "monto": 15 },
+  { "nombre": "EDISON", "monto": 50 },
+  { "nombre": "MARIBEL", "monto": 27.5 }
 ]

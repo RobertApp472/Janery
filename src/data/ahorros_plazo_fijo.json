@@ -1,4 +1,3 @@
 [
-  { "nombre": "ROBERT", "montos": [500, 400] },
-  { "nombre": "AHORRO_GRUPAL", "monto": 461.3 }
+  { "nombre": "ROBERT", "montos": [500, 400] }
 ]

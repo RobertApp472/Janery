@@ -1,18 +1,33 @@
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import logoJanery from './assets/LOGO_JANERY.png';
 
 export default function Navigator() {
   const [showHeader, setShowHeader] = useState(true);
   // Detectar landscape en móvil/tablet
-  const isLandscapeMobile = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(orientation: landscape) and (max-width: 1024px)').matches;
-  const shouldShowHeader = showHeader && !isLandscapeMobile;
+  const [isLandscapeMobile, setIsLandscapeMobile] = useState(false);
+  useEffect(() => {
+    const check = () => {
+      if (typeof window !== 'undefined' && window.matchMedia) {
+        setIsLandscapeMobile(window.matchMedia('(orientation: landscape) and (max-width: 1024px)').matches);
+      }
+    };
+    check();
+    window.addEventListener('resize', check);
+    window.addEventListener('orientationchange', check);
+    return () => {
+      window.removeEventListener('resize', check);
+      window.removeEventListener('orientationchange', check);
+    };
+  }, []);
+  // Si el usuario da a mostrar, forzar mostrar aunque sea landscape
+  const shouldShowHeader = showHeader && (!isLandscapeMobile || showHeader === 'force');
   return (
     <header className="sticky top-0 z-50 font-sans">
 
       {/* Logo y título con botón ocultar */}
-      {shouldShowHeader && (
+      {(shouldShowHeader || showHeader === 'force') && (
         <div className="w-full bg-gray-900 shadow-md border-b border-gray-700 relative">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center gap-4">
             {/* Logo */}
@@ -55,7 +70,7 @@ export default function Navigator() {
         <div className="w-full flex justify-end bg-gray-900 border-b border-gray-700">
           <button
             className="m-2 bg-green-700 text-white px-3 py-1 rounded-lg text-xs font-bold hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-green-400"
-            onClick={() => setShowHeader(true)}
+            onClick={() => setShowHeader('force')}
             aria-label="Mostrar cabecera"
           >
             Mostrar cabecera

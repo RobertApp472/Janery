@@ -1,8 +1,8 @@
 [
-  { "id": 20, "nombre": "PINARGOTE JESUS" },
-  { "id": 21, "nombre": "TUTILLO PATRICIO" },
-  { "id": 23, "nombre": "REINOSO EVA" },
-  { "id": 24, "nombre": "PERUGACHI ERNESTO" },
-  { "id": 25, "nombre": "TONTAQUIMBA EDISON" },
-  { "id": 26, "nombre": "MARIBEL OBANDO" }
+  { "id": 20, "nombre": "JESUS" },
+  { "id": 21, "nombre": "PATRICIO" },
+  { "id": 23, "nombre": "EVA" },
+  { "id": 24, "nombre": "ERNESTO" },
+  { "id": 25, "nombre": "EDISON" },
+  { "id": 26, "nombre": "MARIBEL" }
 ]

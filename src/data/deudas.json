@@ -1,6 +1,6 @@
 [
   {
-    "nombre": "DE LA CRUZ JUAN",
+    "nombre": "JUAN",
     "deudas": [
       {
         "mes": "enero",
@@ -17,7 +17,7 @@
     ]
   },
   {
-    "nombre": "DE LA CRUZ JHON",
+    "nombre": "JHON",
     "deudas": [
       {
         "mes": "enero",
@@ -34,7 +34,7 @@
     ]
   },
   {
-    "nombre": "DE LA CRUZ JEANETH",
+    "nombre": "JEANETH",
     "deudas": [
       {
         "mes": "enero",
@@ -51,13 +51,13 @@
     ]
   },
   {
-    "nombre": "DE LA CRUZ MERY",
+    "nombre": "MERY",
     "deudas": [
       {
         "mes": "enero",
         "interes_emergente": 10.75,
-        "aporte_mensual": 0,
-        "aporte_especial": 0
+        "aporte_mensual": 2.5,
+        "aporte_especial":0
       },
       {
         "mes": "febrero",
@@ -68,7 +68,7 @@
     ]
   },
   {
-    "nombre": "DE LA CRUZ ROBERT",
+    "nombre": "ROBERT",
     "deudas": [
       {
         "mes": "enero",
@@ -91,7 +91,7 @@
     ]
   },
   {
-    "nombre": "PERUGACHI ANA",
+    "nombre": "ANA",
     "deudas": [
       {
         "mes": "enero",
@@ -120,7 +120,7 @@
     ]
   },
   {
-    "nombre": "PINARGOTE HANSEL",
+    "nombre": "HANSEL",
     "deudas": [
       {
         "mes": "enero",
@@ -137,18 +137,7 @@
     ]
   },
   {
-    "nombre": "TUTILLO ISAAC",
-    "deudas": [
-      {
-        "mes": "enero",
-        "interes_emergente": 0,
-        "aporte_mensual": 2.5,
-        "aporte_especial": 0
-      }
-    ]
-  },
-  {
-    "nombre": "DE LA CRUZ MERY",
+    "nombre": "ISAAC",
     "deudas": [
       {
         "mes": "enero",
@@ -158,4 +147,5 @@
       }
     ]
   }
+
 ]
